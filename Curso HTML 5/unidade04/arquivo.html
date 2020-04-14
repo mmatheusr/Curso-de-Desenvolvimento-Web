@@ -3,8 +3,25 @@
     <head>
         <title>Unidade 02 - Elemento Head</title>
         <meta charset="utf-8">
-        
+        <style>
+            body{
+                background-color: aqua;
+            }
+            p{
+                font-family: Arial, Helvetica, sans-serif;
+                color: blue;
+                text-indent: 2em;
+            }
+        </style>
+        <script>
+            function escreverNome(){
+                nome.innerHTML = "Matheus M";
+            }
+            window.onload = escreverNome;
+        </script>
     </head>
     <body>
+       <p id="nome"></p>
+       <p>Aqui vai a explicação de como colocar o estilo e os scripts dentro em um arquivo html</p>
     </body>
 </html>
