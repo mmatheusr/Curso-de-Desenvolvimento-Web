@@ -57,14 +57,17 @@
 		}
         
         tbody tr:nth-child(odd) {
-            background-color: beige   
+            background-color:yellow;  
+        }    
+        .coluna1{
+            background-color: #f0f0f0;
         }
-        
-        tbody tr:nth-child(even) {
-            background-color:antiquewhite  
-        }        
-	
-	
+        .coluna2{
+            background-color: yellowgreen;
+        }
+        .coluna3{
+            background-color: blueviolet;
+        }
 	</style>
 
     <body>
@@ -72,6 +75,11 @@
         <table>
         
             <caption>Olimpiadas do Rio de Janeiro 2016</caption>
+            <colgroup>
+                <col class="coluna1">
+                <col class="coluna2">
+                <col class="coluna3">
+            </colgroup>
             <thead>
                 <tr>
                     <td></td>

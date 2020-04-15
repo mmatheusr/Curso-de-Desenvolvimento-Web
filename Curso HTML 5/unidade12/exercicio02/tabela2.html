@@ -55,16 +55,65 @@
 			font-size:.9em;
 			color:#666;
 		}
-	
+		tbody tr:nth-child(odd){
+			background-color: beige;
+		}
+		tbody tr:nth-child(even){
+			background-color: blue;
+		}
 	
 	</style>
 
     <body>
 		
         <table>
-        
+			<caption>
+				Olimpiadas do Rio de Janeiro 2016
+			</caption>
+				<thead>
+					<tr>
+						<td></td>
+						<td>Ouro</td>
+						<td>Prata</td>
+						<td>Bronze</td>
+						<td>Total</td>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<td></td>
+						<td>Ouro</td>
+						<td>Prata</td>
+						<td>Bronze</td>
+						<td>Total</td>
+					</tr>
+				</tfoot>
+				<tbody>
+					<tr>
+						<td>Brasil</td>
+						<td>100</td>
+						<td>130</td>
+						<td>200</td>
+						<td>430</td>
+					</tr>
 
-        
+					<tr>
+						<td>USA</td>
+						<td>90</td>
+						<td>110</td>
+						<td>210</td>
+						<td>420</td>
+					</tr>
+
+
+					<tr>
+						<td>China</td>
+						<td>89</td>
+						<td>100</td>
+						<td>100</td>
+						<td>289</td>
+					</tr>
+				</tbody>			
         </table>
 
     </body>
