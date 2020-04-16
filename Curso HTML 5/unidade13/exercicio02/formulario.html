@@ -10,7 +10,29 @@
     <body>
         
         <h2>Formulário</h2>
-        
+        <form action="@" method="post">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+
+            <label for="telefone">Telefone Residencial:</label>
+            <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu email">
+
+            <label for="estado">Estado:</label>
+            <select name="estado" id="estado">
+                <option value="1">Rio de Janeiro</option>
+                <option value="2">São Paulo</option>
+                <option value="3">Espirito Santo</option>
+                <option value="4">Minas Gerais</option>
+            </select>
+
+            <input type="submit" value="Enviar">
+        </form>
     
     </body>
 </html>
